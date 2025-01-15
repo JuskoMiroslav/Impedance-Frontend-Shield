@@ -386,6 +386,18 @@
     [
       "de23f470-01e5-4133-bf09-5fbd0a8fd2b2",
       "Root"
+    ],
+    [
+      "a15b60ab-0a77-4abe-a6ff-b41b27752b61",
+      "Clock"
+    ],
+    [
+      "661a0bb9-3a76-41c5-8afa-5550889cd753",
+      "AD5933"
+    ],
+    [
+      "4d121477-233a-4e5f-95dc-d03b00c27c4a",
+      "Amplifier"
     ]
   ],
   "text_variables": {}

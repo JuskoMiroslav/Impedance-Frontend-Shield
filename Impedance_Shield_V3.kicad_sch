@@ -4,515 +4,165 @@
 	(generator_version "8.0")
 	(uuid "de23f470-01e5-4133-bf09-5fbd0a8fd2b2")
 	(paper "A4")
-	(lib_symbols
-		(symbol "AD5933:AD5933"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+	(lib_symbols)
+	(sheet
+		(at 140.97 120.65)
+		(size 21.59 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d121477-233a-4e5f-95dc-d03b00c27c4a")
+		(property "Sheetname" "Amplifier"
+			(at 140.97 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+		)
+		(property "Sheetfile" "Amplifier.kicad_sch"
+			(at 140.97 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AD5933_1_1"
-				(rectangle
-					(start -6.35 1.27)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at 2.54 -8.89 90)
-					(length 2.54) hide
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -8.89 90)
-					(length 2.54) hide
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -8.89 90)
-					(length 2.54) hide
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "RFB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "V_{IN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -5.08 180)
-					(length 2.54)
-					(name "V_{OUT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -5.08 0)
-					(length 2.54)
-					(name "EXT_{CLK}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AD5933_2_1"
-				(rectangle
-					(start -3.81 12.7)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "AVDD_{SIG}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 15.24 270)
-					(length 2.54)
-					(name "AVDD_{REF}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -8.89 90)
-					(length 2.54)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -8.89 90)
-					(length 2.54)
-					(name "AGND_{SIG}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -8.89 90)
-					(length 2.54)
-					(name "AGND_{REF}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 15.24 270)
-					(length 2.54)
-					(name "DVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
+		)
+		(instances
+			(project "Impedance_Shield_V3"
+				(path "/de23f470-01e5-4133-bf09-5fbd0a8fd2b2"
+					(page "4")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "AD5933:AD5933")
-		(at 156.21 62.23 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 101.6 137.16)
+		(size 25.4 13.97)
 		(fields_autoplaced yes)
-		(uuid "109e5180-89b1-4e92-9295-66ef85d697db")
-		(property "Reference" "U1"
-			(at 161.29 58.4199 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "661a0bb9-3a76-41c5-8afa-5550889cd753")
+		(property "Sheetname" "AD5933"
+			(at 101.6 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AD5933.kicad_sch"
+			(at 101.6 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" input
+			(at 101.6 140.97 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
+			(uuid "d8d4e075-2e08-471d-99ab-b7a17d227077")
 		)
-		(property "Value" "~"
-			(at 161.29 60.325 0)
+		(pin "SCL" input
+			(at 101.6 143.51 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
+			(uuid "113230bf-5776-4cb6-a4ad-098ed5eaf3dc")
 		)
-		(property "Footprint" ""
-			(at 156.21 62.23 0)
+		(pin "ExtClk" input
+			(at 101.6 148.59 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
+			(uuid "477df96f-a16c-4478-a726-0973775a4cd2")
 		)
-		(property "Datasheet" ""
-			(at 156.21 62.23 0)
+		(pin "Vin" input
+			(at 127 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
+			(uuid "b8ebb050-2899-4497-8e4f-b2ad52e8f3e8")
 		)
-		(property "Description" ""
-			(at 156.21 62.23 0)
+		(pin "Vout" input
+			(at 127 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
-		)
-		(pin "11"
-			(uuid "4f5cd5e5-dbd2-4995-adce-c53456d83c16")
-		)
-		(pin "15"
-			(uuid "101d2f5b-beef-4356-be4a-98dca123ab31")
-		)
-		(pin "4"
-			(uuid "1be39d97-b8d5-4c42-94ce-6058874887cc")
-		)
-		(pin "6"
-			(uuid "84807ee3-1eec-4ea1-abe3-ca726686a483")
-		)
-		(pin "10"
-			(uuid "41c82fe8-b362-4d04-916f-7fc9910c22fa")
-		)
-		(pin "16"
-			(uuid "c5208ae6-daf0-4f56-a8b0-3ed1adf4de2c")
-		)
-		(pin "13"
-			(uuid "09795ee5-d0b0-4d36-85fd-190c34a98779")
-		)
-		(pin "1"
-			(uuid "54f77bf6-ca62-4dd5-b2d8-4653fbfc7971")
-		)
-		(pin "12"
-			(uuid "44019bad-ac6f-4ee1-b081-b68aa10bb531")
-		)
-		(pin "3"
-			(uuid "ae5fa955-639a-44c4-8923-2cdd48688d51")
-		)
-		(pin "14"
-			(uuid "dc4fffc1-b9fb-4e34-861b-2e7a4ed73594")
-		)
-		(pin "2"
-			(uuid "8430f8a2-3705-450d-94c3-9cebe156d988")
-		)
-		(pin "5"
-			(uuid "4dbd3978-15b0-419c-9c16-f7df54732310")
-		)
-		(pin "8"
-			(uuid "fd83710a-318c-4869-882e-e71799c9beeb")
-		)
-		(pin "9"
-			(uuid "bf5f364e-9630-4547-916d-b454b6dd504f")
+			(uuid "76d74b9b-8c59-4ea7-a788-90caae68b1c3")
 		)
 		(instances
-			(project ""
+			(project "Impedance_Shield_V3"
 				(path "/de23f470-01e5-4133-bf09-5fbd0a8fd2b2"
-					(reference "U1")
-					(unit 2)
+					(page "3")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "AD5933:AD5933")
-		(at 119.38 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 68.58 137.16)
+		(size 17.78 15.24)
 		(fields_autoplaced yes)
-		(uuid "c2349b50-49a0-472f-bc2b-6259ec5f075c")
-		(property "Reference" "U1"
-			(at 119.38 45.72 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a15b60ab-0a77-4abe-a6ff-b41b27752b61")
+		(property "Sheetname" "Clock"
+			(at 68.58 136.4484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 119.38 48.26 0)
+		(property "Sheetfile" "Clock.kicad_sch"
+			(at 68.58 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" ""
-			(at 119.38 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 50.8 0)
+		(property "Field2" ""
+			(at 68.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -520,56 +170,30 @@
 				(hide yes)
 			)
 		)
-		(pin "11"
-			(uuid "4f5cd5e5-dbd2-4995-adce-c53456d83c16")
+		(pin "ExClk" input
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0c5d233-f540-4a89-9f87-f119d4423d67")
 		)
-		(pin "15"
-			(uuid "101d2f5b-beef-4356-be4a-98dca123ab31")
-		)
-		(pin "4"
-			(uuid "1be39d97-b8d5-4c42-94ce-6058874887cc")
-		)
-		(pin "6"
-			(uuid "84807ee3-1eec-4ea1-abe3-ca726686a483")
-		)
-		(pin "10"
-			(uuid "41c82fe8-b362-4d04-916f-7fc9910c22fa")
-		)
-		(pin "16"
-			(uuid "c5208ae6-daf0-4f56-a8b0-3ed1adf4de2c")
-		)
-		(pin "13"
-			(uuid "09795ee5-d0b0-4d36-85fd-190c34a98779")
-		)
-		(pin "1"
-			(uuid "54f77bf6-ca62-4dd5-b2d8-4653fbfc7971")
-		)
-		(pin "12"
-			(uuid "44019bad-ac6f-4ee1-b081-b68aa10bb531")
-		)
-		(pin "3"
-			(uuid "ae5fa955-639a-44c4-8923-2cdd48688d51")
-		)
-		(pin "14"
-			(uuid "dc4fffc1-b9fb-4e34-861b-2e7a4ed73594")
-		)
-		(pin "2"
-			(uuid "8430f8a2-3705-450d-94c3-9cebe156d988")
-		)
-		(pin "5"
-			(uuid "4dbd3978-15b0-419c-9c16-f7df54732310")
-		)
-		(pin "8"
-			(uuid "fd83710a-318c-4869-882e-e71799c9beeb")
-		)
-		(pin "9"
-			(uuid "bf5f364e-9630-4547-916d-b454b6dd504f")
+		(pin "OscSw" input
+			(at 68.58 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "41588ddd-0df6-456b-9afc-634fb630f380")
 		)
 		(instances
-			(project ""
+			(project "Impedance_Shield_V3"
 				(path "/de23f470-01e5-4133-bf09-5fbd0a8fd2b2"
-					(reference "U1")
-					(unit 1)
+					(page "2")
 				)
 			)
 		)
